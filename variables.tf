@@ -166,7 +166,7 @@ variable "skip_final_snapshot" {
 variable "deletion_protection" {
   description = "Enable deletion protection to prevent accidental DB instance deletion"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "tags" {
