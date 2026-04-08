@@ -6,13 +6,13 @@ on:
     branches:
       - "main"
     paths:
-      - "**"
+      - "aws/postgres-rds/**"
       - ".github/workflows/ryvn-aws-rds-postgres-release.yaml"
   pull_request:
     branches:
       - "main"
     paths:
-      - "**"
+      - "aws/postgres-rds/**"
 
 jobs:
   release:
